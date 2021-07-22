@@ -1,0 +1,8 @@
+- hosts: all
+ 
+  vars:
+    file_name: '/f1.txt'
+  tasks:
+    - file:
+        path: '/home/Rhel'
+        state: touch
